@@ -1,0 +1,24 @@
+.slider {
+    position: relative;
+    width: 100%;
+    margin: auto;
+    overflow: hidden;
+}
+/* width 3853 height 209 */
+
+.slider .slider-row {
+    width: 3853px;
+    height: 209px;
+    background-image: url(../img/logos-09.png);
+    background-size: 3853px 209px;
+    animation: slide 50s linear infinite;
+}
+
+@keyframes slide {
+    from {
+        background-position-x: 0;
+    }
+    to {
+        background-position-x: -3853px;
+    }
+}
